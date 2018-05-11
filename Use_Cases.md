@@ -1,6 +1,6 @@
 ## 用例图
 
-详见 [Usecase Diagram](./Usecase Diagram.md)
+详见 [Usecase Diagram](./Usecase_Diagram.md)
 
 ## 用例文本
 
@@ -24,9 +24,11 @@
     + 如果系统检测到与餐馆记账系统通信失败，则告知用户发生位置错误，请求用户稍后发起退票，将该错误发送给管理员。
 
     *活动图：*
+
     ![Deal Disposal](./images/Handle_Disposal.png)
 
     *UI原型：*
+    
     ![Deal Disposal](./images/Handle_Disposal_UI.png)
 
 3. Detailed Level
