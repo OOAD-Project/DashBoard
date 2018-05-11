@@ -1,6 +1,6 @@
 ## 用例图
 
-详见 [Usecase Diagram](./Usecase_Diagram.md)
+详见 [Usecase Diagram](./Use_Case_Diagram.md)
 
 ## 用例文本
 
@@ -15,6 +15,7 @@
 2. Casual Level
 
 + **处理退菜：**
+
     *主成功场景：*
     顾客重新扫描餐台上的二维码进入当前餐台号的点餐页面，点击页面底部“功能菜单”中“已下单的菜品”，选择要退点的菜品，点击“申请退菜”，点餐系统收到退菜要求，马上通知厨房以及餐馆经理，如果符合相关条件，则取消相应菜品的制作，并把钱返还给顾客；点餐系统更新订单信息，相应菜品的订单显示为“已退菜”。
 
@@ -28,9 +29,9 @@
     ![Deal Disposal](./images/Handle_Disposal.png)
 
     *UI原型：*
-    
+
     ![Deal Disposal](./images/Handle_Disposal_UI.png)
 
 3. Detailed Level
 
-详见 [详细用例建模](./用例建模.md)
+    详见 [详细用例建模](./用例建模.md)
