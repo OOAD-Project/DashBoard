@@ -1,0 +1,16 @@
+{
+  "name": "easyorder-dashboard",
+  "version": "1.0.0",
+  "description": "DashBoard",
+  "main": "ReadMe.md",
+  "repository": "https://github.com/OOAD-Project/DashBoard",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "dependencies": {
+    "vuepress": "^0.8.4"
+  }
+}
