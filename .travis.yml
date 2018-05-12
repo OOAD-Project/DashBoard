@@ -8,7 +8,7 @@ before_script:
 script:
   - yarn run build
 
-deploy:
+after_script:
   - cd .vuepress/dist
   - git init
   - git add -A
