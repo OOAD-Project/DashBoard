@@ -2,3 +2,8 @@
 # =======================
 
 .DS_Store
+
+node_modules/
+.idea/
+.vscode/
+.vuepress/dist/
