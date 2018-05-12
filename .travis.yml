@@ -11,10 +11,8 @@ script:
 after_script:
   - cd .vuepress/dist
   - git init
+  - git config user.name "${username}"
+  - git config user.email "${useremail}"
   - git add -A
   - git commit -m "Deploy"
   - git push -f "https://${GH_TOKEN}@github.com/OOAD-Project/DashBoard.git" master:gh-pages
-
-branches:
-  only:
-    - master
