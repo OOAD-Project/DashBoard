@@ -29,7 +29,7 @@ sidebarDepth: 2
 - 7、Design（设计）
   - 7.1 UI design
     - 点餐主界面效果预览
-  - 7.2 Database design
+  - 7.2 [database model and init](../Requirement_specification/7.2 database design.md)Database design
     - 7.2.1 用户及权限系统数据库设计
     - 7.2.2 点餐系统数据库设计
     - 7.2.x 第三方数据评审结果
