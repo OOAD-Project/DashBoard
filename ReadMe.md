@@ -41,3 +41,7 @@ sidebarDepth: 2
   - [inception meeting](../X1_Meet_Recording/X1-meet_recording.md)
 - X2 Tech/Work Report
   - [15331092_项目工作经验总结](../X2_Tech&&Work_Report/15331092_项目工作经验总结.md)
+- X3  期中编写其他APP需求任务
+  - [需求文档](/DashBoard/Hupu_app.pdf)
+  - [建模者答案](./Week10_APP_Model/15331006/15331006/answer.md)
+  - [对建模者答案评价](./Week10_APP_Model/Comment_to_answer.md)
