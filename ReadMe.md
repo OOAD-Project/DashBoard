@@ -2,9 +2,9 @@
 home: true
 heroImage: /images/homepage.jpg
 actionText: 了解一下 →
-actionLink: /1-About.html
+actionLink: /Iteration1/1-About.md
 footer: MIT Licensed | Copyright © 2018
-
+sidebarDepth: 2
 ---
 
 
@@ -33,7 +33,7 @@ footer: MIT Licensed | Copyright © 2018
     - 7.2.1 用户及权限系统数据库设计
     - 7.2.2 点餐系统数据库设计
     - 7.2.x 第三方数据评审结果
-  - **7.3 API 设计**
+  - 7.3 API 设计
 - 8、生产规范与指南
   - 8.1 [前端及后端代码标准规范](../Iteration2/8-生产规范与指南.md)
   - 8.2 REST API 设计规范

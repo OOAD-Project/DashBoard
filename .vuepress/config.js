@@ -8,7 +8,9 @@ module.exports = {
   base: '/DashBoard/',
   themeConfig: {
     nav: [
-      { text: '主页', link: '/' }
+      { text: '项目规划', link: '/Iteration1/1-About.md' },
+      { text: '团队组员', link: '/Iteration1/2-Team_Profile.md' },
+      { text: 'API', link: '/api/' }
     ]
   }
 };
