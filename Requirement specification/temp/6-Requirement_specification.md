@@ -2,7 +2,7 @@
 
 ## 6.1 Usecase Diagram
 
-![Usecase Diagram](../images/Use_Case_Diagram.png)
+![Usecase Diagram](../../images/Use_Case_Diagram.png)
 
 ## 6.2 Use Cases
 
@@ -28,11 +28,11 @@
 
     *活动图：*
 
-    ![Deal Disposal](../images/Handle_Disposal.png)
+    ![Deal Disposal](../../images/Handle_Disposal.png)
 
     *UI原型：*
 
-    ![Deal Disposal](../images/Handle_Disposal_UI.png)
+    ![Deal Disposal](../../images/Handle_Disposal_UI.png)
 
 ### Detailed Level
 
@@ -179,7 +179,7 @@
 
 ### 私人定制功能领域模型 (By Jack Cheng: 15331050)
 
-![Customed Cooking](../images/Customed_Cooking.png)
+![Customed Cooking](../../images/Customed_Cooking.png)
 
 ## 6.4 State Model
 
@@ -199,18 +199,18 @@
 
 #### 点餐订单状态模型
 
-![Order State Model](./images/Order_State_Model.png)
+![Order State Model](../../images/Order_State_Model.png)
 
 #### 中途加菜订单状态模型
 
-![Add More Food](./images/Add_More_Food_State_Model.png)
+![Add More Food](../../images/Add_More_Food_State_Model.png)
 
 #### 退菜订单状态模型
 
-![Cancel Food](./images/Cancel_Food_State_Model.png)
+![Cancel Food](../../images/Cancel_Food_State_Model.png)
 
 ## 6.5 System Sequence Diagram
 
 ### 应用场景一：顾客私人定制菜品 (By Jack Cheng: 15331050)
 
-![Customization](../images/Customed_Cooking_SSD.png)
+![Customization](../../images/Customed_Cooking_SSD.png)

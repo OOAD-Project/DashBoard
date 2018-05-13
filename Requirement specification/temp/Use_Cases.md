@@ -26,11 +26,11 @@
 
     *活动图：*
 
-    ![Deal Disposal](./images/Handle_Disposal.png)
+    ![Deal Disposal](../../images/Handle_Disposal.png)
 
     *UI原型：*
 
-    ![Deal Disposal](./images/Handle_Disposal_UI.png)
+    ![Deal Disposal](../../images/Handle_Disposal_UI.png)
 
 3. Detailed Level
 

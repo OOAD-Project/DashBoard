@@ -21,7 +21,7 @@ footer: MIT Licensed | Copyright © 2018
 - 6、Requirement specification（需求规格说明）
   - 6.1 Usecase Diagram（用例图）
   - 6.2 Use Cases（用例+活动图）
-  - 6.3 Domian Model（领域模型）
+  - 6.3 Domain Model（领域模型）
   - 6.4 State Model（状态模型）
   - **6.5 System Sequence Diagram（功能模型）**
 - 7、Design（设计）
