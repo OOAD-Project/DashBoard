@@ -26,6 +26,7 @@ sidebarDepth: 2
   - **6.5 System Sequence Diagram（功能模型）**
     * [顾客私人定制菜品](../Requirement_specification/System_Sequence_Diagram/15331050_CustomerPrivateMode.md)
     * [顾客选购菜品](../Requirement_specification/System_Sequence_Diagram/15331092_CustomerChooseFood.md)
+  - 6.6 [Supplementary Requirements](../Requirement_specification/6.6-Supplementary_Requirements.md)（补充需求）
 - 7、Design（设计）
   - 7.1 UI design
     - 点餐主界面效果预览
@@ -34,6 +35,7 @@ sidebarDepth: 2
     - 7.2.2 点餐系统数据库设计
     - 7.2.x 第三方数据评审结果
   - 7.3 API 设计
+  - 7.4 [Software Architecture Document](../Software_Architecture_Document.pdf)Software Architecture Document
 - 8、生产规范与指南
   - 8.1 [前端及后端代码标准规范](../Iteration2/8-生产规范与指南.md)
   - 8.2 REST API 设计规范
