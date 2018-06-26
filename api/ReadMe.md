@@ -2,6 +2,7 @@
 
 ## 目录
 
+- [Shop(商家)](./shop.md)
 - [Product(用餐)](./product.md)
 - [Order(订单)](./order.md)
 
