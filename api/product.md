@@ -23,11 +23,13 @@ interface IProduct {
     id: string;
     name: string;
     price: number;
+    category: string;
     description: string;
     imageUrl: string;
     salesPerMonth: number;
     rate: number;
     likes: number;
+    remain: number;
 }
 ```
 
@@ -37,11 +39,13 @@ interface IProduct {
     "id": "1",
     "name": "原味牛杂面",
     "price": 17,
+    "category": "粉面",
     "description": "粉面自由选择，备注即可！",
     "imageUrl": "https://fuss10.elemecdn.com/3/a3/aed6124612ad38457e8e369d7e54bjpeg.jpeg",
     "salesPerMonth": 770,
     "rate": 4.5,
-    "likes": 8
+    "likes": 8,
+    "remain": 50
 }
 ```
 
@@ -51,46 +55,34 @@ interface IProduct {
 
 #### Responses
 
-接口
-```typescript
-interface ICategory {
-  id: string;
-  category: string;
-  description?: string;
-  goods: IProduct[];
-}
-```
-
-
 返回值
 ```json
-[{
-    "id": "niuza",
-    "category": "牛杂汤粉面",
-    "description": "各种精选牛杂粉面，正宗广式和味道",
-    "goods": [
-        {
-            "id": "1",
-            "name": "原味牛杂面",
-            "price": 17,
-            "description": "粉面自由选择，备注即可！",
-            "imageUrl": "https://fuss10.elemecdn.com/3/a3/aed6124612ad38457e8e369d7e54bjpeg.jpeg",
-            "salesPerMonth": 770,
-            "rate": 4.5,
-            "likes": 8
-        },
-        {
-            "id": "2",
-            "name": "素粉面",
-            "price": 15,
-            "description": "粉面自由选择，备注即可！",
-            "imageUrl": "https://fuss10.elemecdn.com/3/a3/aed6124612ad38457e8e369d7e54bjpeg.jpeg",
-            "salesPerMonth": 430,
-            "rate": 4.3,
-            "likes": 83
-        }
-    ]
-}]
+[
+    {
+        "id": "1",
+        "name": "原味牛杂面",
+        "price": 17,
+        "category": "粉面",
+        "description": "粉面自由选择，备注即可！",
+        "imageUrl": "https://fuss10.elemecdn.com/3/a3/aed6124612ad38457e8e369d7e54bjpeg.jpeg",
+        "salesPerMonth": 770,
+        "rate": 4.5,
+        "likes": 8,
+        "remain": 50
+    },
+    {
+        "id": "2",
+        "name": "素粉面",
+        "price": 15,
+        "category": "粉面",
+        "description": "粉面自由选择，备注即可！",
+        "imageUrl": "https://fuss10.elemecdn.com/3/a3/aed6124612ad38457e8e369d7e54bjpeg.jpeg",
+        "salesPerMonth": 430,
+        "rate": 4.3,
+        "likes": 83,
+        "remain": 56
+    }
+]
 ```
 
 
