@@ -21,7 +21,8 @@ sidebar: auto
 ```typescript
 interface IOrder {
     id: string;
-    create_time: number;
+    create_time: string;
+    pay_time: string;
     table: string; // 桌号
     list: IOrderItem[];
     total: number; // 合计消费价格
@@ -40,7 +41,8 @@ interface IOrderItem {
 ```json
 {
     "id": "1080",
-    "create_time": 1526203134762,
+    "create_time": "2018-06-08 04:58:51",
+    "pay_time": "2018-06-09 04:58:51",
     "table": "8",
     "list": [
         {
@@ -83,7 +85,8 @@ interface IOrderBodyListItem {
 ```json
 {
     "id": "1090",
-    "create_time": 1526203134782,
+    "create_time": "2018-06-08 04:58:51",
+    "pay_time": "None",
     "table": "8",
     "list": [
         {
