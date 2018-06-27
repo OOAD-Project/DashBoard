@@ -22,7 +22,7 @@ interface Icomment {
     food_name:string; //便于显示（不用再次发请求确定name）
     rating：number;
     content:string;
-    likes: number; //评论点赞数
+    //likes: number; //评论点赞数
     comment_time: string; //评论时间
 }
 ```
@@ -62,7 +62,7 @@ interface ICommentList{
          "likes": 2,
          //时间格式：yyyy-MM-dd hh:mm:ss
          "comment_time":"2018-06-23 12:10:00"
-    }
+    }]
 }
 ```
 
