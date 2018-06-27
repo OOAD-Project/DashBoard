@@ -2,9 +2,11 @@
 
 ## 目录
 
-- [Shop(商家)](./shop.md)
-- [Product(用餐)](./product.md)
-- [Order(订单)](./order.md)
+- [Shop(商家)](./user_page/shop.md)
+- [Product(用餐)](./user_page/product.md)
+- [Order(订单)](./user_page/order.md)
+- [Comment(评论)](./user_page/comment.md)
+- [Payment(支付)](./user_page/payment.md)
 
 ## 注意事项和约定
 
