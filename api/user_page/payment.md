@@ -6,7 +6,7 @@ sidebar: auto
 
 ## 获取支付信息
 
-### GET /api/payment_detail
+### GET /api/payment/:reservation_id
 
 获取当前餐桌的订单支付信息(session)
 
@@ -74,5 +74,20 @@ interface Iallpayment {
 
 
 
+### 提交支付
 
+-----
 
+### POST /api/payment
+
+返回值
+
+```typescript
+{
+	"id": "xxxxxxxxxx",//64位
+    "payment_time": "2018-06-25 10:40:33", 
+    "payment_way": "在线支付",
+    "payment_amount": 47.0,
+    "reservation_id": "2"
+}
+```
