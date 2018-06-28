@@ -22,69 +22,57 @@ interface Ipayment {
     //本来需要订单状态，但是考虑到reservation里面包含了就不再加了
     payment_way: string; //支付方式
     payment_amount: number; //支付金额
-    reservation: Ireservation; //支付的订单
+    reservation_id: string; //支付的订单编号
 }
 
-//Ireservation结构同reservation.md 中的api设计
-interface Ifood {
-    id: string;
-    name: string;
-    price: number;
-    category: string;
-    description: string;
-    imageUrl: string;
-    salesPerMonth: number;
-    rate: number;
-    likes: number;
-    remain: number;
-    counts: number;//订单中单项的数量
-}
 ```
 
 返回值
 
 ```json
 {
-	"id": "2",
+	"id": "xxxxxxxxxx",//64位
     //时间格式：yyyy-MM-dd hh:mm:ss
     "payment_time": "2018-06-20 12:03:11", 
     "payment_way": "在线支付",
     "payment_amount": 47.0,
-    //下面这个reservation的例子和订单api中的例子一样
-    reservation: 
-    {
-        "reservation_id": "3",
-        "foods": [{
-            "id": "1",
-            "name": "原味牛杂面",
-            "price": 17,
-            "category": "粉面",
-            "description": "粉面自由选择，备注即可！",
-            "imageUrl": "https://fuss10.elemecdn.com/3/a3/aed6124612ad38457e8e369d7e54bjpeg.jpeg",
-            "salesPerMonth": 770,
-            "rate": 4.5,
-            "likes": 8,
-            "remain": 50,
-            "count": 1
-            },
-            {
-                "id": "2",
-                "name": "素粉面",
-                "price": 15,
-                "category": "粉面",
-                "description": "粉面自由选择，备注即可！",
-                "imageUrl": "https://fuss10.elemecdn.com/3/a3/aed6124612ad38457e8e369d7e54bjpeg.jpeg",
-                "salesPerMonth": 430,
-                "rate": 4.3,
-                "likes": 83,
-                "remain": 56,
-                "count": 2
-            }
-        ],
-        //时间格式：yyyy-MM-dd hh:mm:ss
-        "reserve_time": "2018-06-20 12:00:00",
-        "reserve_state": "商家已接单" //这里可以做一个简单的检查， 如果state是"未支付"应该是出错了
-    }
+    "reservation_id": "1"
+
 }
 
 ```
+### GET /api/payments
+
+获取所有支付订单
+
+```typescript
+interface Iallpayment {
+    payments: Ipayment[];
+}
+```
+
+返回值
+
+```typescript
+[
+    {
+	"id": "xxxxxxxxxx",//64位
+    "payment_time": "2018-06-24 12:03:11", 
+    "payment_way": "在线支付",
+    "payment_amount": 47.0,
+    "reservation_id": "1“
+	},
+	{
+	"id": "xxxxxxxxxx",//64位
+    "payment_time": "2018-06-25 10:40:33", 
+    "payment_way": "在线支付",
+    "payment_amount": 47.0,
+    "reservation_id": "2"
+	}
+]
+```
+
+
+
+
+

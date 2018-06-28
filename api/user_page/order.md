@@ -15,6 +15,20 @@ sidebar: auto
 | ------------- | --------------------- |
 | id            | 订单标识               |
 
+
+
+### GET /api/order?table_id
+
+获取某餐桌的订单信息
+
+#### Parameters
+
+| Name     | Description |
+| -------- | ----------- |
+| table_id | 餐桌桌号    |
+
+
+
 #### Responses
 
 接口
@@ -56,6 +70,14 @@ interface IOrderItem {
     "isPaid": true
 }
 ```
+
+
+
+
+
+
+
+
 
 ## 创建订单
 
