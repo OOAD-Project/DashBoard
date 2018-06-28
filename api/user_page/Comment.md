@@ -43,7 +43,7 @@ interface ICommentList{
 
 返回值
 
-```json
+```typescript
 {
     "comment": [{
         "food_id": "1",
