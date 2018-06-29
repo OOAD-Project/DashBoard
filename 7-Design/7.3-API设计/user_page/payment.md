@@ -54,22 +54,22 @@ interface Iallpayment {
 返回值
 
 ```typescript
-[
-    {
-	"id": "xxxxxxxxxx",//64位
-    "payment_time": "2018-06-24 12:03:11", 
-    "payment_way": "在线支付",
-    "payment_amount": 47.0,
-    "reservation_id": "1“
-	},
-	{
-	"id": "xxxxxxxxxx",//64位
-    "payment_time": "2018-06-25 10:40:33", 
-    "payment_way": "在线支付",
-    "payment_amount": 47.0,
-    "reservation_id": "2"
-	}
-]
+{[
+        {
+        "id": "xxxxxxxxxx",//64位
+        "payment_time": "2018-06-24 12:03:11", 
+        "payment_way": "在线支付",
+        "payment_amount": 47.0,
+        "reservation_id": "1“
+        },
+        {
+        "id": "xxxxxxxxxx",//64位
+        "payment_time": "2018-06-25 10:40:33", 
+        "payment_way": "在线支付",
+        "payment_amount": 47.0,
+        "reservation_id": "2"
+        }
+]}
 ```
 
 
@@ -80,14 +80,45 @@ interface Iallpayment {
 
 ### POST /api/payment
 
-返回值
+request提交值
 
 ```typescript
+interface Ipostpay {
+    payment_time: string; //支付时间
+    payment_way: string; //支付方式
+    payment_amount: number; //支付金额
+    reservation_id: string; //支付的订单编号
+}
+```
+
+
+
+```json
 {
-	"id": "xxxxxxxxxx",//64位
     "payment_time": "2018-06-25 10:40:33", 
     "payment_way": "在线支付",
     "payment_amount": 47.0,
     "reservation_id": "2"
 }
 ```
+response 返回字段接口
+
+```typescript
+interface Ipayres{
+	status: boolean;
+    payment_id: string; //支付编号（64bit)
+}
+
+```
+
+
+
+response返回值
+
+```json
+{
+    "status" : true,
+    "payment_id": xxxxxxx //64 bit
+}
+```
+

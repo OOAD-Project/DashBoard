@@ -33,7 +33,7 @@ sidebarDepth: 2
     - 7.2.2 [点餐系统数据库设计](./7-Design/7.2_database_design.md)
     - 7.2.x [第三方数据评审结果](./7-Design/7.2_database_design.md)
   - 7.3 [API 设计](./7-Design/7.3-API设计/ReadMe.md)
-  - 7.4 [Software Architecture Document](./7-Design/7.4-Software_Architecture_Document.pdf)
+  - 7.4 [Software Architecture Document](/DashBoard/Software_Architecture_Document.pdf)
   - 7.5 [BCE_Sequence_and_Class_Diagram](./7-Design/7.5-SequenceAndClassDiagram.md)
 - 8、生产规范与指南
   - 8.1 [代码规范](./8-生产规范与指南/8.1-代码规范.md)
@@ -46,7 +46,8 @@ sidebarDepth: 2
   - [15331092_项目工作经验总结](./X2_Tech&&Work_Report/15331092_项目工作经验总结.md)
   - [15331050_UMLet使用说明之绘制用例图](./X2_Tech&&Work_Report/15331050_UMLet_使用说明之绘制用例图.md)
 - XX 建模练习
-  - [虎扑app业务文档](./XX_建模练习/XX.1-虎扑app业务文档.pdf)
+  - [虎扑app业务文档](/DashBoard/Hupu_app.pdf)
   - [建模要求](./XX_建模练习/XX.2-建模要求.md)
   - [建模者答案](./XX_建模练习/XX.3-建模者答案与评价/建模者答案/15331006/answer.md)
   - [对建模者答案的评价](./XX_建模练习/XX.3-建模者答案与评价/Comment_to_answer.md)
+
