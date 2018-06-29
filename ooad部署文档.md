@@ -17,30 +17,37 @@ web后端框架 异步框架**aiohttp**
 其他第三方依赖以及版本
 
 aiohttp_session
+
 ![image_1ch5t9r2rmg1esaqge1f6i1semm.png-6.5kB][2]
 
 
 aiohttp_cors
+
 ![image_1ch5tlboen2h3sj1v4f1qh71kla13.png-6.8kB][3]
 
 
 aioredis
+
 ![image_1ch5tloe510ma1iic7ohdnl1qhv1g.png-5.8kB][4]
 
 
 passlib
+
 ![image_1ch5tm4nq144lq9b6i1amt1o1f1t.png-5.9kB][5]
 
 
 pyyaml
+
 ![image_1ch5tmki2lude8n1qg9n001i322a.png-5.9kB][6]
 
 
 aiomysql
+
 ![image_1ch5tni4r1h4u60c1kpvj0t1n4j2n.png-6.5kB][7]
 
 
 mysql.connector
+
 ![image_1ch5tnvds1fcf1okrepeg0sh2g34.png-7.3kB][8]
 
 
@@ -50,6 +57,7 @@ sqlalchemy
 
 
 数据库使用mysql
+
 ![image_1ch5tv4tt7a91ela1vs7bu92op9.png-924.3kB][10]
 
 ----------
