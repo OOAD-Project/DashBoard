@@ -44,9 +44,9 @@ sidebarDepth: 2
   - [inception meeting](./X1_meet_recording/inception_meeting.md)
 - X2 Tech/Work Report
   - [15331092_项目工作经验总结](./X2_Tech&&Work_Report/15331092_项目工作经验总结.md)
-  - [15331050_UMLet 使用说明之绘制用例图](./X2_Tech&&Work_Report/15331050_UMLet 使用说明之绘制用例图.md)
+  - [15331050_UMLet使用说明之绘制用例图](./X2_Tech&&Work_Report/15331050_UMLet_使用说明之绘制用例图.md)
 - XX 建模练习
   - [虎扑app业务文档](./XX_建模练习/XX.1-虎扑app业务文档.pdf)
   - [建模要求](./XX_建模练习/XX.2-建模要求.md)
-  - [建模者答案](./XX_建模练习/建模者答案/15331006/answer.md)
-  - [对建模者答案的评价](./XX_建模练习/建模者答案/Comment_to_answer.md)
+  - [建模者答案](./XX_建模练习/XX.3-建模者答案与评价/建模者答案/15331006/answer.md)
+  - [对建模者答案的评价](./XX_建模练习/XX.3-建模者答案与评价/Comment_to_answer.md)
