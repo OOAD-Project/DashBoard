@@ -7,10 +7,10 @@
 ### get /api/reservation_count_by_month
 
 ```typescript
-interface Ireservation_month_static {
+interface IReservation_month_static {
     static_permonth: Imonth_static[]; //实际后台实现是固定长度为12, 表示最近一年的统计
 }
-interface Ires_month_static {
+interface IRes_month_static {
     month_date: string;
     quantity: number;
 }
@@ -54,10 +54,10 @@ interface Ires_month_static {
 ### get /api/reservation_count_by_day
 
 ```typescript
-interface Ireservation_day_static {
+interface IReservation_day_static {
     static_perday: Ires_day_static[]; //实际后台实现是固定长度为30, 表示接近最近一个月的统计
 }
-interface I_res_day_static {
+interface IRes_day_static {
     day_date: string;
     quantity: number;
 }
@@ -199,10 +199,10 @@ interface I_res_day_static {
 ### get /api/reservation_count_by_week
 
 ```typescript
-interface Ireservation_week_static {
+interface IReservation_week_static {
     static_perweek: Ires_week_static[]; //实际后台实现是固定长度为10, 表示最近10周的统计
 }
-interface Ires_week_static {
+interface IRes_week_static {
     week_date: string;
     quantity: number;
 }
@@ -265,10 +265,10 @@ interface Ires_week_static {
 /*按订单中包含的菜品   类别    的(成交)订单数统计占比*/
 /*Ex: 订单中有菜品1,2,3分别属于kind1,2,3，那么这个订单统计时kind1,2,3均需+1*/
 /**/
-interface Ireservation_kind_static {
+interface IReservation_kind_static {
     static_perweek: Ires_kind_static[]; //每个kind 一个种类
 }
-interface Ires_week_static {
+interface IRes_week_static {
     x: string;//kind 名称
     y: number; //具体数量
 }

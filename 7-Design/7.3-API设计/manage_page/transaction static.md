@@ -7,10 +7,10 @@
 ### get /api/transaction_count_by_month
 
 ```typescript
-interface Itransaction_month_static {
+interface ITransaction_month_static {
     static_permonth: Imonth_static[]; //实际后台实现是固定长度为12, 表示最近一年的统计
 }
-interface Itrans_month_static {
+interface ITrans_month_static {
     month_date: string;
     quantity: number;
 }
@@ -54,10 +54,10 @@ interface Itrans_month_static {
 ### get /api/transaction_count_by_day
 
 ```typescript
-interface Itransaction_day_static {
+interface ITransaction_day_static {
     static_permonth: Itrans_day_static[]; //实际后台实现是固定长度为30, 表示接近最近一个月的统计
 }
-interface Itrans_day_static {
+interface ITrans_day_static {
     day_date: string;
     quantity: number;
 }
@@ -199,10 +199,10 @@ interface Itrans_day_static {
 ### get /api/transaction_count_by_week
 
 ```typescript
-interface Itransaction_week_static {
+interface ITransaction_week_static {
     static_permonth: Iweek_static[]; //实际后台实现是固定长度为10, 表示最近10周的统计
 }
-interface Itrans_week_static {
+interface ITrans_week_static {
     week_date: string;
     quantity: number;
 }
@@ -262,10 +262,10 @@ interface Itrans_week_static {
 ### get /api/turnover_piedata
 
 ```typescript
-interface Ireservation_kind_static {
+interface IReservation_kind_static {
     static_perweek: Ires_kind_static[]; //每个kind 一个种类
 }
-interface Ires_week_static {
+interface IRes_week_static {
     x: string;//kind 名称
     y: number; //具体成交金额
 }

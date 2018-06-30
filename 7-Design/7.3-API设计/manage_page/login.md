@@ -9,7 +9,7 @@
 接口
 
 ```typescript
-interface Iuser{
+interface IUser{
     name: string;
     psw: string;
 }

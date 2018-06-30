@@ -15,7 +15,7 @@ sidebar: auto
 接口
 
 ```typescript
-interface Ipayment {
+interface IPayment {
     id: string; //支付编号（后端最好随机生成64位码， 之后可以作为凭据一类的东西）
     payment_time: string; //支付时间
     //reserve_state: string; 
@@ -46,7 +46,7 @@ interface Ipayment {
 获取所有支付订单
 
 ```typescript
-interface Iallpayment {
+interface IAllpayment {
     payments: Ipayment[];
 }
 ```
@@ -83,7 +83,7 @@ interface Iallpayment {
 request提交值
 
 ```typescript
-interface Ipostpay {
+interface IPostpay {
     payment_time: string; //支付时间
     payment_way: string; //支付方式
     payment_amount: number; //支付金额
@@ -104,7 +104,7 @@ interface Ipostpay {
 response 返回字段接口
 
 ```typescript
-interface Ipayres{
+interface IPayres{
 	status: boolean;
     payment_id: string; //支付编号（64bit)
 }

@@ -13,7 +13,7 @@ sidebar: auto
 接口
 
 ```typescript
-interface Ishop_static{
+interface IShop_static{
     total_turnover: number;  //总销售额
     total_reservation: number; //总订单数
     total_payment: number; //总完成订单数
