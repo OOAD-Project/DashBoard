@@ -3,7 +3,7 @@
 |         PSP 2.1          |               How to do                | Time(hours) |
 | :----------------------: | :------------------------------------: | :---------: |
 |         Planning         |                  计划                  |      4      |
-|         Estimate         |         估计自己的任务所需时间         |      8      |
+|         Estimate         |         估计自己的任务所需时间         |      4      |
 |       Development        |                  开发                  |    47.5     |
 |         Analysis         |                分析需求                |     15      |
 |       Design Spec        |              生成设计文档              |     12      |
@@ -18,5 +18,5 @@
 |     Size Measurement     |               计算工作量               |      0      |
 |        Postmortem        |                事后总结                |      2      |
 | Process Improvement Plan |            提出过程改进计划            |      2      |
-|           Sum            |                  合计                  |    59.5     |
+|           Sum            |                  合计                  |    55.5     |
 
