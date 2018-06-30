@@ -37,7 +37,7 @@ sidebarDepth: 2
   - 7.5 [BCE_Sequence_and_Class_Diagram](./7-Design/7.5-SequenceAndClassDiagram.md)
 - 8、生产规范与指南
   - 8.1 [代码规范](./8-生产规范与指南/8.1-代码规范.md)
-  - 8.2 REST API 设计规范
+  - 8.2 [REST API 设计规范](./8-生产规范与指南/8.2-Restful_API的设计规范.md)
   - 8.3 [BCE 设计指南](./8-生产规范与指南/8.3-框架目录设计与逻辑架构与ECB的关系.md)
   - 8.4 [项目部署](./8-生产规范与指南/8.4-ooad部署文档.md)
 - X1 meet_recording
