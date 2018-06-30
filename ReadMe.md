@@ -38,7 +38,7 @@ sidebarDepth: 2
 - 8、生产规范与指南
   - 8.1 [代码规范](./8-生产规范与指南/8.1-代码规范.md)
   - 8.2 REST API 设计规范
-  - 8.3 [BCE 设计指南](./8-生产规范与指南/8.3-框架目录设计与逻辑架构与 ECB 的关系.md)
+  - 8.3 [BCE 设计指南](./8-生产规范与指南/8.3-框架目录设计与逻辑架构与ECB的关系.md)
   - 8.4 [项目部署](./8-生产规范与指南/8.4-ooad部署文档.md)
 - X1 meet_recording
   - [inception meeting](./X1_meet_recording/inception_meeting.md)
