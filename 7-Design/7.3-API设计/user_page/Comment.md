@@ -72,12 +72,15 @@ interface ICommentList{
 
 ```typescript
 {
-    "food_id": "1",
-    "food_name": "原味牛杂面",
-    "rating": 4,
-    "content" :"怎么只有这一个菜啊",
-    //时间格式：yyyy-MM-dd hh:mm:ss
-    "comment_time":"2018-06-20 12:00:00"
+    "comment": [{
+        "food_id": "1",
+        "food_name": "原味牛杂面",
+        "rating": 4,
+        "content" :"怎么只有这一个菜啊",
+        //"likes": 0,
+        //时间格式：yyyy-MM-dd hh:mm:ss
+        "comment_time":"2018-06-20 12:00:00"
+    }]
 }
 ```
 
