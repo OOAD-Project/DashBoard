@@ -17,7 +17,7 @@ sidebar: auto
 
 
 
-### GET /api/order?table_id
+### GET /api/order_by_table/:table_id
 
 获取某餐桌的订单信息
 
