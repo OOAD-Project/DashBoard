@@ -257,4 +257,56 @@ interface Itrans_week_static {
 
 
 
-### 
+### 订单数
+
+### get /api/turnover_piedata
+
+```typescript
+interface Ireservation_kind_static {
+    static_perweek: Ires_kind_static[]; //每个kind 一个种类
+}
+interface Ires_week_static {
+    x: string;//kind 名称
+    y: number; //具体成交金额
+}
+```
+
+
+
+
+
+
+
+```typescript
+[
+  {
+    "x": "kind1",
+    "y": 20
+  },
+  {
+    "x": "kind2",
+    "y": 15
+  },
+  {
+    "x": "kind3",
+    "y": 40
+  },
+  {
+    "x": "kind4",
+    "y": 30
+  },
+  {
+    "x": "kind5",
+    "y": 20
+  },
+  {
+    "x": "kind6",
+    "y": 25
+  }
+]
+```
+
+
+
+
+
