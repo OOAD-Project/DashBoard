@@ -27,7 +27,7 @@ sidebarDepth: 2
   - 6.6 [Supplementary Requirements](./6-Requirement_specification/6.6-Supplementary_Requirements.md)（补充需求）
 - 7、Design（设计）
   - 7.1 UI design
-    - 点餐主界面效果预览
+    - [点餐主界面效果预览](./7-Design/7.1-UI_design.md)
   - 7.2 Database design
     - 7.2.1 [用户及权限系统数据库设计](./7-Design/7.2_database_design.md)
     - 7.2.2 [点餐系统数据库设计](./7-Design/7.2_database_design.md)
@@ -45,6 +45,12 @@ sidebarDepth: 2
 - X2 Tech/Work Report
   - [15331092_项目工作经验总结](./X2_Tech&&Work_Report/15331092_项目工作经验总结.md)
   - [15331050_UMLet使用说明之绘制用例图](./X2_Tech&&Work_Report/15331050_UMLet_使用说明之绘制用例图.md)
+- X3 Final Report
+  - [简短的课程学习自我总结（400字以内）](./X3_Final_report.md)
+  - [PSP 2.1 统计表](./X3_Final_report.md)
+  - [个人分支的 GIT 统计报告](./X3_Final_report.md)
+  - [自认为最得意/或有价值/或有苦劳的工作清单，含简短说明](./X3_Final_report.md)
+  - [个人的技术类、项目管理类博客清单](./X3_Final_report.md)
 - XX 建模练习
   - [虎扑app业务文档](/DashBoard/Hupu_app.pdf)
   - [建模要求](./XX_建模练习/XX.2-建模要求.md)
