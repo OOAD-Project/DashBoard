@@ -53,7 +53,7 @@
 
 ## Insights
 
-![](./X3_Final_Report/img_src/DashBoardCommitGraph.png)
+![](./img_src/DashBoardCommitGraph.png)
 
 
 ## Git统计报告
@@ -68,7 +68,7 @@ git log --pretty=%aN | sort | uniq -c | sort -k1 -n -r | head -n 10
 
 **DashBoard** commit数：
 
-![](./X3_Final_Report/img_src/15331087_dashboard_commit.png)
+![](./img_src/15331087_dashboard_commit.png)
 
 代码行数统计,代码如下：
 
@@ -78,4 +78,4 @@ git log --format='%aN' | sort -u | while read name; do echo -en "$name\t"; git l
 
 **DashBoard **代码行数：
 
-![](./X3_Final_Report/img_src/15331087_dashboard_codeline.png)
+![](./img_src/15331087_dashboard_codeline.png)
