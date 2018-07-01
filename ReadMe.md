@@ -46,7 +46,7 @@ sidebarDepth: 2
   - [15331092_项目工作经验总结](./X2_Tech&&Work_Report/15331092_项目工作经验总结.md)
   - [15331050_UMLet使用说明之绘制用例图](./X2_Tech&&Work_Report/15331050_UMLet_使用说明之绘制用例图.md)
   - [15331087_使用UMLet绘制用例图及活动图](./X2_Tech&&Work_Report/15331087_使用UMLet绘制用例图及活动图.md)
-- X3 Final Report
+- X3 Final Report（小组所有成员报告均在此文件内）
   - [简短的课程学习自我总结（400字以内）](./X3_Final_report.md)
   - [PSP 2.1 统计表](./X3_Final_report.md)
   - [个人分支的 GIT 统计报告](./X3_Final_report.md)
