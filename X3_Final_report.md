@@ -169,13 +169,17 @@ sidebarDepth: 0
 
 ##### DashBoard:
 
+
+
 ![](.\X3_Final_Report\img_src\15331092_DashBoard_Static.png)
 
 
 
 ##### 后端
 
-![EasyOrder_BE Contribution](./X3_Final_Report/img_src/EasyOrderBE.png)
+
+
+![EasyOrder_BE Contribution](./X3_Final_Report/img_src/15331092_EasyOrderBE_Static.png)
 
 
 
