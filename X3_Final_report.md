@@ -410,7 +410,11 @@ git log --format='%aN' | sort -u | while read name; do echo -en "$name\t"; git l
 ![](https://github.com/uita/uita.github.io/blob/master/_images/Screenshot%20from%202018-07-01%2019-17-09.png?raw=true)
 
 ### Insight
-![](https://github.com/uita/uita.github.io/blob/master/_images/Screenshot%20from%202018-07-01%2019-27-01.png?raw=true)
+
+用户名uita是本人
+![](https://github.com/uita/uita.github.io/blob/master/_images/Screenshot%20from%202018-07-01%2019-48-53.png?raw=true)
+
+![](https://github.com/uita/uita.github.io/blob/master/_images/Screenshot%20from%202018-07-01%2019-49-32.png?raw=true)
 
 ### 辛苦工作清单
 
