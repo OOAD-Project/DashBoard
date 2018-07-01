@@ -33,7 +33,7 @@ sidebarDepth: 2
     - 7.2.2 [点餐系统数据库设计](./7-Design/7.2_database_design.md)
     - 7.2.x [第三方数据评审结果](./7-Design/7.2_database_design.md)
   - 7.3 [API 设计](./7-Design/7.3-API设计/ReadMe.md)
-  - 7.4 [Software Architecture Document](./7-Design/7.4-Software_Architecture_Document.pdf)
+  - 7.4 [Software Architecture Document](./7-Design/7.4-SoftwareArchitectureDocument.md)
   - 7.5 [BCE_Sequence_and_Class_Diagram](./7-Design/7.5-SequenceAndClassDiagram.md)
 - 8、生产规范与指南
   - 8.1 [代码规范](./8-生产规范与指南/8.1-代码规范.md)
