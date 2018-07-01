@@ -272,7 +272,9 @@ git log --pretty=%aN | sort | uniq -c | sort -k1 -n -r | head -n 10
 
 ------------------------
 
-## By 15331087
+## by-15331087
+
+### [个人报告链接](https://github.com/OOAD-Project/DashBoard/blob/master/X3_Final_Report/FinalReport_15331087.md)
 
 ### 课程项目中我的工作
 
