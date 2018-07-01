@@ -2,9 +2,17 @@
 
 ### 自我总结
 
+#### 项目反思
+
+在这次项目的设计中我负责需求分析、用例设计、后端编码等工作，总的来说并不顺利。在需求分析和用例设计时无法考虑得全面和细致，导致在后端编码的时候需要一边编码一边回头来修改文档，给团队带来了很多麻烦，这应该是软件开发的大忌。总的来说，自己在软件需求分析方面确实需要不断改进，对于软件工程的知识还掌握得不够，必须参与到更多的实践中不断成长。
+
+#### 项目感悟
+
 需求分析和设计是整个软件开发过程的基石，文档的清晰和完备是降低沟通成本的最有效方法，合理的文档结构和成员分工是项目进度的保证。
 
-特别鸣谢：前端大佬、后端伙伴以及我们的架构工程师、产品经理和项目经理。
+#### 特别鸣谢
+
+前端大佬、后端伙伴以及我们的架构工程师、产品经理和项目经理。
 
 ### PSP 2.1 统计表
 
@@ -29,6 +37,53 @@
 |           Sum            |                  合计                  |    55.5     |
 
 ### 个人 GIT 统计报告
+
+由于我们组采用的是建立Organization然后共同管理的方式，因此统计只能分别截图。我负责的工作主要是需求分析和开发设计文档的编写、后端部分代码的开发，个人的 git 统计情况如下：
+
+#### commit
+
+**DashBoard commit 记录：**
+
+![DashBoard commit](./X3_Final_Report/img_src/15331050_DashBoard_commit.png)
+
+**DashBoard commit 数量：**
+
+![DashBoard commit](./X3_Final_Report/img_src/15331050_DashBoard_commit_num.png)
+
+如图所示，本人 (**Jack Cheng**) 的 commit 数量为 34。
+
+**EasyOrder_BE commit 记录：**
+
+![EasyOrder commit](./X3_Final_Report/img_src/15331050_EasyOrderBE_commit.png)
+
+**EasyOrder_BE commit 数量：**
+
+![EasyOrder commit](./X3_Final_Report/img_src/15331050_EasyOrderBE_commit_num.png)
+
+如图所示，本人 (**Jack Cheng**) 的 commit 数量为 5。
+
+#### 代码行数统计
+
+**DashBoard 代码行数统计：**
+
+![DashBoard code](./X3_Final_Report/img_src/15331050_DashBoard_code.png)
+
+**EasyOrder_BE 代码行数统计：**
+
+![EasyOrder_BE code](./X3_Final_Report/img_src/15331050_EasyOrderBE_code.png)
+
+#### github 每个仓库的统计图
+
+由于本人 (**Jack Cheng**) 只在 `DashBoard` 和 `EasyOrder_BE` 仓库上有贡献，因此只列出这两个仓库内的贡献图：
+
+**DashBoard 贡献图：**
+
+![DashBoard Contribution](./X3_Final_Report/img_src/DashBoard.png)
+
+**EasyOrder_BE 贡献图：**
+
+![EasyOrder_BE Contribution](./X3_Final_Report/img_src/EasyOrderBE.png)
+
 
 ### 苦劳工作清单
 
@@ -120,19 +175,19 @@ git log --pretty=%aN | sort | uniq -c | sort -k1 -n -r | head -n 10
 
 **DashBoard **代码行数：
 
-![](.\X3_Final_Report\img_src\15331092_DashBoard_codeline.png)
+![](./X3_Final_Report/img_src/15331092_DashBoard_codeline.png)
 
 **DashBoard** commit数：
 
-![](.\X3_Final_Report\img_src\15331092_DashBoard_commit.png)
+![](./X3_Final_Report/img_src/15331092_DashBoard_commit.png)
 
 **EasyOrder_BE **代码行数：
 
-![](.\X3_Final_Report\img_src\15331092_EasyOrder_BE_codeline.png)
+![](./X3_Final_Report/img_src/15331092_EasyOrder_BE_codeline.png)
 
 **EasyOrder_BE** commit数：
 
-![](.\X3_Final_Report\img_src\15331092_EasyOrder_BE_commit.png)
+![](./X3_Final_Report/img_src/15331092_EasyOrder_BE_commit.png)
 
 
 
