@@ -352,3 +352,70 @@ git log --format='%aN' | sort -u | while read name; do echo -en "$name\t"; git l
 
 
 
+## By 15331361
+
+### 项目感悟
+
++ 文档的重要性
+    在这次项目中，我充分了解到文档的重要性。无论是前段还是后台，只要在项目的开始就确定好正确无误的文档，那么在开发的过程中按照文档来做就可以减少很多麻烦。如果刚开始文档还没确定好，盲目打代码的话，容易出现需求与实现不符合和前后端接口对不上的问题，并且给后续的代码维护带来很多不必要的麻烦。
+
++ 注释的重要性
+    由于这次项目我是基于大神同学已经搭建好的代码框架添加api的，所以代码的重要性就不言而喻了。好的注释能够帮助人们轻松阅读代码，理解代码执行过程，否则就会出现"写代码时只有我和上帝可以看懂，后来只有上帝可以看懂。"的情况。
+
+#### 特别鸣谢
+
++ 感谢后台大佬为我们搭建好数据库和服务器，使得我的工作简化成往服务器添加api，同时也教了我不少关于数据库和服务器的知识，自己也能懂得如何操作数据库。
+
++ 感谢前端大佬为我们实现所有的用户界面，当其他组的同学还在为网页的按钮不响应的bug而头疼时，我们却完全不需要担心前端。
+
++ 感谢组长大佬为我们的前后端的api接口绞尽脑汁，考虑到了各种各样的用例和情况，并为每种情况定义相应的数据结构和函数接口。
+
+#### PSP 2.1 统计表
+
+|         PSP 2.1          |               How to do                | Time(hours) |
+| :----------------------: | :------------------------------------: | :---------: |
+|         Planning         |                  计划                  |      5      |
+|         Estimate         |         估计自己的任务所需时间         |      2      |
+|       Development        |                  开发                  |     39      |
+|         Analysis         |                分析需求                |     10      |
+|       Design Spec        |              生成设计文档              |     10      |
+|      Design Review       |     设计复审（和同事审核设计文档）     |      2      |
+|     Coding Standard      | 代码规范（为目前的开发制定合适的规范） |     0.5     |
+|          Design          |                具体设计                |      5      |
+|          Coding          |                具体编码                |      2      |
+|       Code Review        |                代码复审                |      0      |
+|           Test           |  测试（包括自测，修改代码，提交修改）  |     0.5     |
+|       Test Report        |                测试报告                |      0      |
+|          Report          |                  报告                  |      5      |
+|     Size Measurement     |               计算工作量               |      0      |
+|        Postmortem        |                事后总结                |      2      |
+| Process Improvement Plan |            提出过程改进计划            |      1      |
+|           Sum            |                  合计                  |     44      |
+
+### 个人 GIT 统计报告
+
+#### commit
+用户名uita和yanglikun是本人。
+
+**DashBoard commit 记录:**
+![](https://github.com/uita/uita.github.io/blob/master/_images/Screenshot%20from%202018-07-01%2019-23-26.png?raw=true)
+
+**DashBoard commit 数量:**
+![](https://github.com/uita/uita.github.io/blob/master/_images/Screenshot%20from%202018-07-01%2019-22-20.png?raw=true)
+
+**EasyOrder_BE commit 记录:**
+![](https://github.com/uita/uita.github.io/blob/master/_images/Screenshot%20from%202018-07-01%2019-18-38.png?raw=true)
+
+**EasyOrder_BE commit 数量:**
+![](https://github.com/uita/uita.github.io/blob/master/_images/Screenshot%20from%202018-07-01%2019-17-09.png?raw=true)
+
+## Insight
+![](https://github.com/uita/uita.github.io/blob/master/_images/Screenshot%20from%202018-07-01%2019-27-01.png?raw=true)
+
+## 辛苦工作清单
+
+|         最有价值的工作         |              简短说明                   |
+| :--------------------------: | :------------------------------------:|
+| 分析系统用例并绘制了项目的BCE流程图和类图| 顾客点餐过程中的用例 |
+| 把收集到的数据导入数据库 | 通过linux脚本编程和mysql的脚本导入命令 |
+| 修改了文档不正确的缺陷 | 把数据库数据结构改成与前端一致 |
