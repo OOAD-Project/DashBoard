@@ -53,7 +53,7 @@
 
 ## Insights
 
-![](./img_src/DashBoardCommitGraph.png)
+![](./img_src/15331087_dashboard_graph.png)
 
 
 ## Git统计报告
