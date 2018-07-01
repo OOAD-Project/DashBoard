@@ -322,7 +322,7 @@ git log --pretty=%aN | sort | uniq -c | sort -k1 -n -r | head -n 10
 | 参与系统功能分析与创新点设计  | 在现有的众多扫码点餐产品中争取崭露头角   |
 | 编写系统架构部署文档      | 分析系统架构，将前后端与数据库的关系转为文档展示   |
 
-## Insights
+### Insights
 
 ![](./X3_Final_Report/img_src/15331087_dashboard_graph.png)
 
