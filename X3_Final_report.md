@@ -1,4 +1,14 @@
-# By 15331050
+**DashBoard 贡献图：**
+
+![DashBoard Contribution](./X3_Final_Report/img_src/DashBoard.png)
+
+**EasyOrder_BE 贡献图：**
+
+![EasyOrder_BE Contribution](./X3_Final_Report/img_src/EasyOrderBE.png)
+
+# 以下为小组各成员的项目期末报告：
+
+## By 15331050
 
 ### 自我总结
 
@@ -75,14 +85,6 @@
 #### github 每个仓库的统计图
 
 由于本人 (**Jack Cheng**) 只在 `DashBoard` 和 `EasyOrder_BE` 仓库上有贡献，因此只列出这两个仓库内的贡献图：
-
-**DashBoard 贡献图：**
-
-![DashBoard Contribution](./X3_Final_Report/img_src/DashBoard.png)
-
-**EasyOrder_BE 贡献图：**
-
-![EasyOrder_BE Contribution](./X3_Final_Report/img_src/EasyOrderBE.png)
 
 
 ### 苦劳工作清单
