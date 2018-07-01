@@ -1,6 +1,6 @@
 **DashBoard 贡献图：**
 
-![DashBoard Contribution](./X3_Final_Report/img_src/DashBoard.png)
+![DashBoard Contribution](./X3_Final_Report/img_src/DashBoard0.png)
 
 **EasyOrder_BE 贡献图：**
 
