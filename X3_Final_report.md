@@ -424,3 +424,66 @@ git log --format='%aN' | sort -u | while read name; do echo -en "$name\t"; git l
 | 分析系统用例并绘制了项目的BCE流程图和类图| 顾客点餐过程中的用例 |
 | 把收集到的数据导入数据库 | 通过linux脚本编程和mysql的脚本导入命令 |
 | 修改了文档不正确的缺陷 | 把数据库数据结构改成与前端一致 |
+
+
+
+
+----------
+
+## By 15331094
+
+[@gzm1997][1]
+苦劳工作清单
+|         最有价值的工作         |              简短说明                   |
+| :--------------------------: | :------------------------------------:|
+| 后端代码的编写与维护      | 负责提供对前端支持的api接口 负责后端代码编写 负责后端代码质量维护   负责前端功能增量更新 拥抱变化   |
+| 项目基础设施搭建            | 个人服务器的环境配置 后端web应用的部署工作以及运行维护            |
+| 后端数据库设计 | 包括mysql数据表的设计 以及ORM部分设计和代码编写  |
+| api接口对应视图函数的设计和编写      | 包括对应前端的菜品 订单 评论 支付等接口的视图函数根据api规范进行设计和编写   |
+
+### 个人博客清单
+
+[link: 个人自制主题技术博客][2]
+
+
+### 个人`Github`贡献
+
+#### EasyOrder-BE 后端web框架
+[link: https://github.com/OOAD-Project/EasyOrder_BE/graphs/contributors?from=2018-06-24&to=2018-07-01&type=a][3]
+
+#### DashBoard 文档
+[link: https://github.com/OOAD-Project/DashBoard/graphs/contributors][4]
+
+![image_1chb1md261m281qvg10odp7djv31h.png-72.8kB][5]
+
+
+### frontend_for_deploy 搭载flask框架+nginx部署打包完成的前端代码
+
+[link: https://github.com/OOAD-Project/frontend_for_deploy/graphs/contributors][6]
+
+
+### 个人软件过程
+
+|         PSP 2.1          |               How to do                | Time(hours) |
+| :----------------------: | :------------------------------------: | :---------: |
+|         Planning         |                  根据架构师的文档进行数据库设计进行一定的设想                  |      4      |
+|         Estimate         |         评估后端数据结构之间的联系设计主外键索引等等要素         |      2      |
+|         Analysis         |                分析需求                |     15      |
+|       Design Spec        |              生成设计文档              |      5      |
+|      Design Review       |     设计复审（单人复审）     |      0      |
+|     Coding Standard      | 代码规范（为目前的开发制定合适的规范） |      0      |
+|          Design          |                具体设计                |     15      |
+|       Development        |                  后端开发（`aiohttp`框架）   |    80.5     |
+|       Code Review        |                代码复审（后端数据库读写分离 使用异步ORM框架aiomysql.sa进行异步操作 模块单独测试）                |      0      |
+|           Test           |  测试（主要是接口调用的联合测试）  |     3.5     |
+|     Size Measurement     |               计算工作量               |      0      |
+|        Postmortem        |                事后总结                |      1      |
+| Process Improvement Plan |            提出过程改进计划            |      2      |
+
+
+  [1]: https://github.com/gzm1997
+  [2]: https://gzm1997.github.io/
+  [3]: https://github.com/OOAD-Project/EasyOrder_BE/graphs/contributors?from=2018-06-24&to=2018-07-01&type=a
+  [4]: https://github.com/OOAD-Project/DashBoard/graphs/contributors
+  [5]: http://static.zybuluo.com/gzm1997/5wm3mps5y1qh4osybe595i5c/image_1chb1md261m281qvg10odp7djv31h.png
+  [6]: https://github.com/OOAD-Project/frontend_for_deploy/graphs/contributors
