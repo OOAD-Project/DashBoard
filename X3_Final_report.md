@@ -461,13 +461,13 @@ git log --format='%aN' | sort -u | while read name; do echo -en "$name\t"; git l
 
 苦劳工作清单
 
-
 |         最有价值的工作         |              简短说明                   |
 | :--------------------------: | :------------------------------------:|
 | 后端代码的编写与维护      | 负责提供对前端支持的api接口 负责后端代码编写 负责后端代码质量维护   负责前端功能增量更新 拥抱变化   |
 | 项目基础设施搭建            | 个人服务器的环境配置 后端web应用的部署工作以及运行维护            |
 | 后端数据库设计 | 包括mysql数据表的设计 以及ORM部分设计和代码编写  |
 | api接口对应视图函数的设计和编写      | 包括对应前端的菜品 订单 评论 支付等接口的视图函数根据api规范进行设计和编写   |
+
 
 ### 个人博客清单
 
@@ -479,15 +479,20 @@ git log --format='%aN' | sort -u | while read name; do echo -en "$name\t"; git l
 #### EasyOrder-BE 后端web框架
 [link: https://github.com/OOAD-Project/EasyOrder_BE/graphs/contributors?from=2018-06-24&to=2018-07-01&type=a][3]
 
-#### DashBoard 文档
-[link: https://github.com/OOAD-Project/DashBoard/graphs/contributors][4]
+![image_1chb43nlk1nc7199bfeqn8tbq1u.png-67.7kB][4]
 
-![image_1chb1md261m281qvg10odp7djv31h.png-72.8kB][5]
+#### DashBoard 文档
+[link: https://github.com/OOAD-Project/DashBoard/graphs/contributors][5]
+
+![image_1chb1md261m281qvg10odp7djv31h.png-72.8kB][6]
 
 
 ### frontend_for_deploy 搭载flask框架+nginx部署打包完成的前端代码
 
-[link: https://github.com/OOAD-Project/frontend_for_deploy/graphs/contributors][6]
+[link: https://github.com/OOAD-Project/frontend_for_deploy/graphs/contributors][7]
+
+
+![image_1chb45g731ip91etu1ls8mi5v2b.png-48.8kB][8]
 
 
 ### 个人软件过程
@@ -512,6 +517,8 @@ git log --format='%aN' | sort -u | while read name; do echo -en "$name\t"; git l
   [1]: https://github.com/gzm1997
   [2]: https://gzm1997.github.io/
   [3]: https://github.com/OOAD-Project/EasyOrder_BE/graphs/contributors?from=2018-06-24&to=2018-07-01&type=a
-  [4]: https://github.com/OOAD-Project/DashBoard/graphs/contributors
-  [5]: http://static.zybuluo.com/gzm1997/5wm3mps5y1qh4osybe595i5c/image_1chb1md261m281qvg10odp7djv31h.png
-  [6]: https://github.com/OOAD-Project/frontend_for_deploy/graphs/contributors
+  [4]: http://static.zybuluo.com/gzm1997/bs75u5y6hcrlisw08k3zo588/image_1chb43nlk1nc7199bfeqn8tbq1u.png
+  [5]: https://github.com/OOAD-Project/DashBoard/graphs/contributors
+  [6]: http://static.zybuluo.com/gzm1997/5wm3mps5y1qh4osybe595i5c/image_1chb1md261m281qvg10odp7djv31h.png
+  [7]: https://github.com/OOAD-Project/frontend_for_deploy/graphs/contributors
+  [8]: http://static.zybuluo.com/gzm1997/xkmlht5hy86sjurpc4gx5qqw/image_1chb45g731ip91etu1ls8mi5v2b.png
