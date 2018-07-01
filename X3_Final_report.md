@@ -228,7 +228,7 @@ git log --pretty=%aN | sort | uniq -c | sort -k1 -n -r | head -n 10
 
 ### 个人博客清单
 
-[link: 自制主题技术博客](https://heskeybaozi.github.io/#/)
+[link: 个人自制主题技术博客](https://heskeybaozi.github.io/#/)
 
 ### 个人`Github`贡献
 
