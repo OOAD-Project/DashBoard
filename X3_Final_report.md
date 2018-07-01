@@ -94,6 +94,13 @@ sidebarDepth: 0
 
 由于本人 (**Jack Cheng**) 只在 `DashBoard` 和 `EasyOrder_BE` 仓库上有贡献，因此只列出这两个仓库内的贡献图：
 
+**DashBoard 贡献图：**
+
+![DashBoard Contribution](./X3_Final_Report/img_src/DashBoard0.png)
+
+**EasyOrder_BE 贡献图：**
+
+![EasyOrder_BE Contribution](./X3_Final_Report/img_src/EasyOrderBE.png)
 
 ### 苦劳工作清单
 
