@@ -322,6 +322,10 @@ git log --pretty=%aN | sort | uniq -c | sort -k1 -n -r | head -n 10
 | 参与系统功能分析与创新点设计  | 在现有的众多扫码点餐产品中争取崭露头角   |
 | 编写系统架构部署文档      | 分析系统架构，将前后端与数据库的关系转为文档展示   |
 
+## Insights
+
+![](./X3_Final_Report/img_src/15331087_dashboard_graph.png)
+
 ### Git统计报告
 
 commit数量代码如下：
@@ -336,7 +340,15 @@ git log --pretty=%aN | sort | uniq -c | sort -k1 -n -r | head -n 10
 
 ![](./X3_Final_Report/img_src/15331087_dashboard_commit.png)
 
+代码行数统计,代码如下：
 
+```
+git log --format='%aN' | sort -u | while read name; do echo -en "$name\t"; git log --author="$name" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' -; done
+```
+
+**DashBoard **代码行数：
+
+![](./X3_Final_Report/img_src/15331087_dashboard_codeline.png)
 
 
 
